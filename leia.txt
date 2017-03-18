@@ -1,0 +1,7 @@
+Para rodar o programa vocẽ deve compilar o mesmo da seguinte forma;
+
+1º gcc lista.h processo.h principal.h -c -lpthread;
+
+2º gcc lista.o processo.o principal.o -o (Aqui vai o nome do executável) -lpthread
+
+OBS.: Roda em sistema LINUX, pois utiliza bibliotecas deste SO.
